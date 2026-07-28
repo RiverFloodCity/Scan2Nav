@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "max_linear_speed": 0.30,
+  "min_linear_speed": 0.03,
+  "max_angular_speed": 0.50,
+  "lookahead_distance": 0.40,
+  "align_enter_angle": 0.70,
+  "align_exit_angle": 0.25,
+  "goal_position_tolerance": 0.15,
+  "goal_yaw_tolerance": 0.08,
+  "slowdown_distance": 0.80,
+  "max_path_deviation": 0.60,
+  "stop_on_inflated_blocked_cell": false,
+  "stop_on_raw_occupied_cell": false,
+  "warn_on_blocked_cell": true,
+  "progress_timeout_seconds": 5.0,
+  "minimum_progress_distance": 0.05,
+  "rotate_gain": 1.2,
+  "goal_yaw_gain": 1.0,
+  "control_period_seconds": 0.02
+}

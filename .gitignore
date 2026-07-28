@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated navigation outputs
+Test/outputs/
+
+# Large reconstructed environment assets
+Test/Assets/Collected_environment_scene/
+
+# Large robot assets
+Test/Assets/Robots/Tianyi2/
+
+# Isaac Sim / Omniverse local files
+.cache/
+logs/
+
+# Temporary scene exported for occupancy-map generation
+Test/Assets/Scene/*_map_export.usd

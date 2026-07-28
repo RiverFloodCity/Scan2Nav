@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "targets": {
+    "hf_dc_power_screen": {
+      "display_name": "高频开关直流电源屏",
+      "aliases": [
+        "直流电源屏",
+        "高频开关电源屏",
+        "直流屏"
+      ],
+      "type": "equipment",
+      "description": "高频开关直流电源屏的导航停靠目标",
+      "enabled": true,
+      "goal_poses": [
+        {
+          "pose_id": "front",
+          "x": 0.27405983984563465,
+          "y": 0.3931921474194034,
+          "yaw": -0.19059413159050775,
+          "priority": 0
+        }
+      ]
+    },
+    "line_maintenance_area": {
+      "display_name": "线路检修区",
+      "aliases": [
+        "检修区",
+        "线路维修区域"
+      ],
+      "type": "region",
+      "description": "线路检修区域的导航目标",
+      "enabled": true,
+      "goal_poses": [
+        {
+          "pose_id": "default",
+          "x": -0.977578414335095,
+          "y": -8.602337557121256,
+          "yaw": -1.0767840573832617,
+          "priority": 0
+        }
+      ]
+    }
+  }
+}

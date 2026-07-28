@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "inflation_radius_m": 0.50,
+  "treat_unknown_as_occupied": true,
+  "allow_diagonal": true,
+  "prevent_corner_cutting": true,
+  "max_expanded_nodes": 500000
+}
